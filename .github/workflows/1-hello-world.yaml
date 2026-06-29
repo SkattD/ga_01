@@ -11,8 +11,8 @@ jobs:
         steps:
             - name : Print Hi to you
               run: echo "Hi to you" 
-            - name: I Will Fail
-              run: exit 1
+            - name: I Will Succeed
+              run: exit 0
             - name: Say Goodbye
               run: echo "Goodbye"
      
