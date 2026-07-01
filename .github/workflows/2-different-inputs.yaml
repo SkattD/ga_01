@@ -23,3 +23,9 @@ jobs:
 
             - name: Done
               run: echo "You did it"
+
+            - name: Some Log prop
+              run: |
+               echo "The name of event is = ${{ github.event_name }}"
+               echo "Commit SHA is = ${{ github.sha }}"
+               echo "Runner is = ${{ runner.os }}"
