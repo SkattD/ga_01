@@ -29,4 +29,5 @@ jobs:
                echo "The name of event is = ${{ github.event_name }}"
                echo "Commit SHA is = ${{ github.sha }}"
                echo "Runner is = ${{ runner.os }}"
-               echo "User input was = ${{ github.event.inputs }}"
+               echo "MySQL = ${{ github.event.inputs.MySQL }}"
+               echo "PostgreSQL = ${{ github.event.inputs.PostgreSQL }}"
