@@ -1,6 +1,6 @@
 name : 2-different-inputs
 on: 
-    push:
+    #push:
     workflow_dispatch:
         inputs:
             MySQL:
